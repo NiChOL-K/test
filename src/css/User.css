@@ -1,0 +1,16 @@
+#user-add-info {
+    height: 100vh;
+    background-color: white;
+}
+
+#user-edit-info {
+    height: 100vh;
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+}
+
+.disable {
+    top: -5px !important;
+}

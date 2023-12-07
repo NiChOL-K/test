@@ -1,0 +1,61 @@
+.about_us h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-us {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-us:hover {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+}
+
+.allpage {
+    margin-top: 50px;
+}
+
+.images {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.images figcaption {
+    text-align: center;
+    font-size: 18px;
+}
+
+#about-us-div {
+    background-color: white;
+    min-height: 90vh;
+    height: 100%;
+    margin-top: -50px;
+}
+
+figcaption {
+    padding: 10px;
+}
+figure {
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+}
+.location h2{
+    text-align: center;
+}
+
+

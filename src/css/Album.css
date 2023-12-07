@@ -1,0 +1,20 @@
+#body-album {
+    min-height: 100vh;
+    height: 100%;
+    background-color: white;
+}
+
+.container-a{
+    padding-top: 5%;
+    margin-bottom: 70px;
+    margin-left: 20%;
+    margin-right: 18%;
+}
+
+.row{
+    align-content: center;
+}
+.p{
+    font-size: 15px;
+    color: black;
+}

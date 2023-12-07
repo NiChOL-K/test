@@ -1,0 +1,128 @@
+[
+    {
+        "ID":1,
+        "song":"Ice Cream",
+        "artist":"BLACKPINK -(with Selena Gomez)",
+        "details":"K-pop • 2020",
+        "image":"https://i1.wp.com/colorcodedlyrics.com/wp-content/uploads/2020/08/BLACKPINK-and-Selena-Gomez-Ice-Cream.jpg?w=1170&ssl=1"
+    },
+    {
+        "ID":2,
+        "song":"Cardigan",
+        "artist":"Taylor Swift - Cardigan",
+        "details":"Alternative • 2020",
+        "image":"https://ichef.bbci.co.uk/news/660/cpsprodpb/10BBB/production/_113593586_swift.jpg"
+    },
+    {
+        "ID":3,
+        "song":"comethru",
+        "artist":"Jeremy Zucker",
+        "details":"Summer, -EP • 2018",
+        "image":"https://m.media-amazon.com/images/I/617U5m4oiGL._SS500_.jpg"
+    },
+    {
+        "ID":4,
+        "song":"Kimino Mikata",
+        "artist":"Kyary Pamyu Pamyu",
+        "details":"Electronic • 2018",
+        "image":"https://vignette.wikia.nocookie.net/jpop/images/d/d8/Kyary_Pamyu_Pamyu_Kimi_no_Mikata_cover.jpg/revision/latest?cb=20180413211328"
+    },
+    {
+        "ID":5,
+        "song":"You Don't Know About Me",
+        "artist":"Ella Vos",
+        "details":"Pop • 2017",
+        "image":"https://i.kfs.io/album/global/26452187,0v1/fit/500x500.jpg"
+    },
+    {
+        "ID":6,
+        "song":"Cornelia Street (Live From Paris)",
+        "artist":"Taylor Swift",
+        "details":"Pop • 2020",
+        "image":"https://1.bp.blogspot.com/-AX4OwLbo6NM/XsJYTfGnCgI/AAAAAAAAAGE/ARTDJmavr7oqaUzn19YYTGXogUlITO9qQCPcBGAYYCw/s1600/Taylor%2BSwift%2B-%2BThe%2BArcher%2B%2528Live%2BFrom%2BParis%2529%2B-%2BSingle.jpg"
+    },
+    {
+        "ID":7,
+        "song":"I Can't Make You Love Me",
+        "artist":"Dave Thomas Junior",
+        "details":"Singer/Songwriter • 2013",
+        "image":"https://f4.bcbits.com/img/a1536154379_10.jpg"
+    },
+    {
+        "ID":8,
+        "song":"you were good to me",
+        "artist":"Jeremy Zucker & Chelsea Cutler",
+        "details":"Pop • 2019",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/71klM9DetKL._SX522_.jpg"
+    },
+    {
+        "ID":9,
+        "song":"200%",
+        "artist":"AKMU",
+        "details":"K-Pop • 2014",
+        "image":"https://music.mthai.com/app/uploads/2014/05/AKDONG-MUSICIAN-01.jpg"
+    },
+    {
+        "ID":10,
+        "song":"In the Name of Love",
+        "artist":"Martin Garrix & Bebe Rexha",
+        "details":"Dance • 2016",
+        "image":"https://static.wixstatic.com/media/c9bbce_020c9d40f92746be931b5edfb706db9d~mv2_d_2480_2480_s_4_2.jpg/v1/fill/w_580,h_580,al_c,q_80,usm_0.66_1.00_0.01/c9bbce_020c9d40f92746be931b5edfb706db9d~mv2_d_2480_2480_s_4_2.jpg"
+    },
+    {
+        "ID":12,
+        "song":"PICK ME",
+        "artist":"PRODUCE 48",
+        "details":"K-Pop • 2018",
+        "image":"https://2.bp.blogspot.com/-88svhIWFJiI/WvW6CnZepFI/AAAAAAAAOXQ/FKjsXj0PZOcMdas_ZAInGpB3z4sADf4eACLcBGAs/s1600/Produce-48-Pick-Me.jpg"
+    },
+    {
+        "ID":13,
+        "song":"Gorgeous",
+        "artist":"Taylor Swift",
+        "details":"Pop • 2017",
+        "image":"https://static.stereogum.com/uploads/2017/10/taylor-swift-reputation-cover-1503602720-640x644-1504448277-640x644-1508463564-640x644.jpg"
+    },
+    {
+        "ID":14,
+        "song":"Sunflower (Spider-Man: Into the Spider-Verse)",
+        "artist":"Post Malone & Swae Lee",
+        "details":"Hip-Hop/Rap • 2018",
+        "image":"https://sbadamsthetower.com/wp-content/uploads/2019/02/61kT5RTssKL._SS500_.jpg"
+    },
+    {
+        "ID":15,
+        "song":"ME! (feat. Brendon Urie of Panic! At the Disco)",
+        "artist":"Taylor Swift",
+        "details":"Pop • 2019",
+        "image":"https://s.isanook.com/jo/0/rp/rc/w300h300/ya0xa0m1w0/aHR0cDovL2ltYWdlLmpvb3guY29tL0pPT1hjb3Zlci8wLzRjYjU0M2YyM2E5YmExMDcvMTAwMC5qcGc=.jpg"
+    },
+    {
+        "ID":16,
+        "song":"You Need To Calm Down",
+        "artist":"Taylor Swift",
+        "details":"Pop • 2019",
+        "image":"https://upload.wikimedia.org/wikipedia/en/2/27/Taylor_Swift_-_You_Need_to_Calm_Down.png"
+    },
+    {
+        "ID":17,
+        "song":"CAN'T STOP THE FEELING! (Original Song From DreamWorks Animation's \"Trolls\")",
+        "artist":"Justin Timberlake",
+        "details":"Pop • 2016",
+        "image":"https://img.discogs.com/5D3KuzFwQlOZXlmhsJpX3jXai40=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8779319-1468600118-6005.jpeg.jpg"
+    },
+    {
+        "ID":18,
+        "song":"Give Love",
+        "artist":"AKMU",
+        "details":"K-Pop • 2014",
+        "image":"https://vignette.wikia.nocookie.net/kpop/images/0/05/AKMU_-_Play_digital_album_cover.png/revision/latest?cb=20181005014526"
+    },
+    {
+        "ID":19,
+        "song":"As If It's Your Last",
+        "artist":"BLACKPINK",
+        "details":"K-Pop • 2017",
+        "image":"https://f.ptcdn.info/350/055/000/p1irvvncnifZLrRlDZD-o.jpg"
+    }
+]

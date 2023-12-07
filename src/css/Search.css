@@ -1,0 +1,132 @@
+#search-page {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-color: white !important;
+  margin-top: -15px;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#search-container {
+  margin: 1em 0;
+}
+
+#search-container input {
+  background-color: transparent;
+  width: 40%;
+  border-bottom: 2px solid #110f29;
+  padding: 1em 0.3em;
+}
+
+#search-container input:focus {
+  border-bottom-color: rgb(117, 255, 89);
+}
+
+#search-container button {
+  padding: 1em 2em;
+  margin-left: 1em;
+  background-color: black;
+  color: rgb(117, 255, 89);
+  border-radius: 5px;
+  margin-top: 0.5em;
+}
+
+.button-value {
+  border: 2px solid black;
+  border-radius: 3em;
+  width: 90px !important;
+  background-color: transparent;
+  color: #242425;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.active {
+  background-color: #000000;
+  color: rgb(117, 255, 89);
+}
+
+#music_gen {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 1.5em;
+  padding: 2em 0;
+
+}
+
+.card {
+  background-color: #ffffff;
+  max-width: 18em;
+  max-height: fit-content;
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+  border-style: solid;
+
+}
+
+.image-container {
+  text-align: center;
+
+}
+
+.img-search {
+  max-width: 100%;
+  object-fit: contain;
+  height: 15em;
+
+}
+
+.container {
+  padding-top: 0.1em;
+  color: hsl(245, 46%, 11%);
+  font-size: 20px;
+}
+
+.container h5 {
+  font-weight: 500;
+
+}
+
+.hide {
+  display: none;
+
+}
+
+@media screen and (max-width: 720px) {
+  .img-search {
+    max-width: 100%;
+    object-fit: contain;
+    height: 10em;
+  }
+
+  .card {
+    max-width: 10em;
+    margin-top: 1em;
+  }
+
+  #music_gen {
+    grid-template-columns: auto auto;
+    grid-column-gap: 1em;
+
+  }
+}
+
+#search {
+  margin-left: 1em;
+  background-color: black !important;
+  color: rgb(117, 255, 89);
+  border-radius: 5px;
+  margin-top: 0.5em;
+  width: 100px !important;
+}
+
+.a-card {
+  color: black;
+  text-decoration: none;
+}

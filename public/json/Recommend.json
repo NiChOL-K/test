@@ -1,0 +1,111 @@
+[
+    {
+        "ID":1,
+        "song":"Ice Cream",
+        "artist":"BLACKPINK -(with Selena Gomez)",
+        "image":"https://i1.wp.com/colorcodedlyrics.com/wp-content/uploads/2020/08/BLACKPINK-and-Selena-Gomez-Ice-Cream.jpg?w=1170&ssl=1"
+    },
+    {
+        "id":2,
+        "song":"Easy On Me",
+        "artist":"Adele",
+        "image":"https://i2-prod.mirror.co.uk/incoming/article25198690.ece/ALTERNATES/s615b/0_adele-245150365_407802484184386_5468799562058431454_n.jpg"
+    },
+    {
+        "id":3,
+        "song":"Heat Waves",
+        "artist":"Glass Animals",
+        "image":"https://i1.sndcdn.com/artworks-thsoJ8lsVzmnmhKC-y7P7XA-t500x500.jpg"
+    },
+    {
+        "id":4,
+        "song":"Stay",
+        "artist":"The Kid LAROI & Justin Bieber",
+        "image":"http://cdn.shopify.com/s/files/1/0513/0613/5747/products/Album-KidLaroi-StayFeaturingJustinBieber.jpg?v=1628713028"
+    },  {
+        "id":5,
+        "song":"Kimino Mikata",
+        "artist":"Kyary Pamyu Pamyu",
+        "image":"https://vignette.wikia.nocookie.net/jpop/images/d/d8/Kyary_Pamyu_Pamyu_Kimi_no_Mikata_cover.jpg/revision/latest?cb=20180413211328"
+    }
+    ,
+    {
+        "id":6,
+        "song":"You Don't Know About Me",
+        "artist":"Ella Vos",
+        "image":"https://i.kfs.io/album/global/26452187,0v1/fit/500x500.jpg"
+    },
+    {
+        "id":7,
+        "song":"Cornelia Street (Live From Paris)",
+        "artist":"Taylor Swift",
+        "image":"https://1.bp.blogspot.com/-AX4OwLbo6NM/XsJYTfGnCgI/AAAAAAAAAGE/ARTDJmavr7oqaUzn19YYTGXogUlITO9qQCPcBGAYYCw/s1600/Taylor%2BSwift%2B-%2BThe%2BArcher%2B%2528Live%2BFrom%2BParis%2529%2B-%2BSingle.jpg"
+    },
+    {
+        "id":8,
+        "song":"I Can't Make You Love Me",
+        "artist":"Dave Thomas Junior",
+        "image":"https://f4.bcbits.com/img/a1536154379_10.jpg"
+    },
+    {
+        "id":9,
+        "song":"you were good to me",
+        "artist":"Jeremy Zucker & Chelsea Cutler",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/71klM9DetKL._SX522_.jpg"
+    },
+    {
+        "id":10,
+        "song":"200%",
+        "artist":"AKMU",
+        "image":"https://music.mthai.com/app/uploads/2014/05/AKDONG-MUSICIAN-01.jpg"
+    },
+    {
+        "id":11,
+        "song":"In the Name of Love",
+        "artist":"Martin Garrix & Bebe Rexha",
+        "image":"https://static.wixstatic.com/media/c9bbce_020c9d40f92746be931b5edfb706db9d~mv2_d_2480_2480_s_4_2.jpg/v1/fill/w_580,h_580,al_c,q_80,usm_0.66_1.00_0.01/c9bbce_020c9d40f92746be931b5edfb706db9d~mv2_d_2480_2480_s_4_2.jpg"
+    },
+    {
+        "id":12,
+        "song":"Super Gremlin",
+        "artist":"Kodak Black",
+        "image":"https://i1.sndcdn.com/artworks-qUrhqs9zdcLyHjaz-554XRA-t500x500.jpg"
+    },
+    {
+        "id":13,
+        "song":"Shivers",
+        "artist":"Ed Sheeran",
+        "image":"https://i1.sndcdn.com/artworks-uy57Oc3trAolQOhy-wdoCgA-t500x500.jpg"
+    },
+    {
+        "id":14,
+        "song":"Gorgeous",
+        "artist":"Taylor Swift",
+        "image":"https://static.stereogum.com/uploads/2017/10/taylor-swift-reputation-cover-1503602720-640x644-1504448277-640x644-1508463564-640x644.jpg"
+    },
+    {
+        "id":15,
+        "song":"Pushin P",
+        "artist":"Gunna & Future Featuring Young Thug",
+        "image":"https://i.scdn.co/image/ab67616d0000b273963b0f9c4305995cf3dc991d"
+    },
+    {
+        "id":16,
+        "song":"abcdefu",
+        "artist":"GAYLE",
+        "image":"https://m.media-amazon.com/images/I/817YF6KMrWS._SS500_.jpg"
+        
+    }, 
+    {
+        "id":17,
+        "song":"Give Love",
+        "artist":"AKMU",
+        "image":"https://vignette.wikia.nocookie.net/kpop/images/0/05/AKMU_-_Play_digital_album_cover.png/revision/latest?cb=20181005014526"
+    },
+    {
+        "id":18,
+        "song":"Cold Heart (PNAU Remix)",
+        "artist":"Elton John & Dua Lipa",
+        "image":"https://i1.sndcdn.com/artworks-VMOKJ5UrUzTx-0-t500x500.jpg"
+    }
+]

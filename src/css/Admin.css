@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    /*background-color:   rgb(157, 199, 103);*/
+    background-image: url("../assets/image/BG-login.jpg");
+    height: 100vh;
+}
+
+.center-admin {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    background: #F0F8FF;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.center-admin h1 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 80%;
+    height: 50px;
+    border: 1px solid;
+    background: #11c09a;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    border-color: #11c09a;
+    transition: .5s;
+}
+
+#body-admin {    
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}

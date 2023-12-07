@@ -1,0 +1,131 @@
+#h1-header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+#searchuser {
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+}
+
+#searchuser:focus {
+    border-bottom-color: rgb(117, 255, 89);
+}
+
+#search {
+    width: 150px;
+    margin-left: 1em;
+    background-color: black;
+    color: rgb(117, 255, 89);
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+#search-content {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#table-content {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+table {
+	border-collapse: collapse;
+    width: 100%;
+}
+table td, table th {
+	padding: 15px;
+}
+table thead th {
+	background-color: #54585d;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #54585d;
+}
+table tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+}
+table tbody tr {
+	background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+#edit {
+    width: 60px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    background: #11c09a;
+}
+
+#delete {
+    width: 60px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    background: red;
+}
+
+#add {
+    margin-left: 1em;
+    background-color: black;
+    color: rgb(117, 255, 89);
+    border-radius: 5px;
+    margin-top: 0.5em;
+    float: right;
+    width: 110px;
+    height: 55px;
+}
+
+#edit:hover {
+    border-color: #11c09a;
+    transition: .5s;
+}
+
+#delete:hover {
+    border-color: red;
+    transition: .5s;
+}
+
+.img-size {
+    width: 100px;
+}
+
+#song-add-body {
+    background-color: white !important;
+}
+
+#add-song-com {
+    background-color: white !important;
+    padding-top: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 100vh;
+}
+
+.tap_down {
+    padding-top: 50px;
+    text-align: center;
+}
