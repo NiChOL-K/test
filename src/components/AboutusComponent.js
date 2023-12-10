@@ -4,7 +4,6 @@ import Gengar from '../assets/image/Gengar.png';
 import teng from '../assets/image/Teng.png';
 import Sin_kid from '../assets/image/Sin_kid.png';
 import Metawarden from '../assets/image/Metawarden.png';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
 const containerStyle = {
     width: '100%',
