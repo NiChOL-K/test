@@ -8,7 +8,7 @@ class AdminComponent extends Component {
 
     componentDidMount() {
         let login = JSON.parse(localStorage.getItem('login'));
-        if (login.role != 'ADMIN')
+        if (login.role !== 'ADMIN')
             window.location.href = "/";
     }
 
