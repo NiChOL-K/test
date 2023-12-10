@@ -36,7 +36,7 @@ class LoginComponent extends Component {
             .then(data => {
                 console.log(data.role);
                 localStorage.setItem('login', JSON.stringify(data));
-                if (data.role == 'ADMIN')
+                if (data.role === 'ADMIN')
                     window.location.href = "/admin";
                 else
                     window.location.href = "/";
