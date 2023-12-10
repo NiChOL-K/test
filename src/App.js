@@ -1,7 +1,7 @@
 import './App.css';
 
 import React from 'react'
-import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import search from './assets/icon/search.svg';
 
 import HomeComponent from './components/HomeComponent';
@@ -35,7 +35,7 @@ function App() {
   } else {
     log2 = <a href="/logout">Logout</a>;
     user = <span style={{ 'color': 'white', 'paddingRight': '15px' }}> Username : {login.username}</span>;
-    if (login.role == 'ADMIN') {
+    if (login.role === 'ADMIN') {
       admin = <a href="/admin">Admin</a>;
       userdetail = <span style={{ 'color': 'white' }}>Role : {login.role}</span>;
     } else {
