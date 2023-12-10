@@ -16,7 +16,7 @@ class PlayComponent extends Component {
 
     componentDidMount() {
         let login = JSON.parse(localStorage.getItem('login'));
-        if (login == null || (login.role == 'USER' && login.plan == 'Free'))
+        if (login === null || (login.role === 'USER' && login.plan === 'Free'))
             window.location.href = "/";
 
         fetch('http://localhost:3001/play?search=' + this.id)
@@ -39,15 +39,15 @@ class PlayComponent extends Component {
                         <h1>
                             {this.state.song.song_name}
                         </h1>
-                        <img src={this.state.song.image} />
+                        <img src={this.state.song.image} alt="Song1"/>
                         <p>
                             {this.state.song.description}
                         </p>
                         <input id="range" className="level" type="range" value="0" min="0" />
                         <div className="buttons">
-                            <button id="pre"><img src={rewind} /></button>
-                            <button id="play"><img id="play_img" src={play} /></button>
-                            <button id="next"><img src={fastforword} /></button>
+                            <button id="pre"><img src={rewind} alt="preButton"/></button>
+                            <button id="play"><img id="play_img" src={play} alt="playButton"/></button>
+                            <button id="next"><img src={fastforword} alt="nextButton"/></button>
                         </div>
 
                     </div>
