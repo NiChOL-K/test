@@ -17,7 +17,7 @@ class SongComponent extends Component {
 
     componentDidMount() {
         let login = JSON.parse(localStorage.getItem('login'));
-        if (login == null || login.role != 'ADMIN')
+        if (login === null || login.role !== 'ADMIN')
             window.location.href = "/";
 
         fetch('http://localhost:3001/admin/song')
@@ -82,7 +82,7 @@ class SongComponent extends Component {
                                         {song.artist}
                                     </td>
                                     <td>
-                                        <img className="img-size" src={song.image} />
+                                        <img className="img-size" src={song.image} alt="songpic"/>
                                     </td>
                                     <td>
                                         {song.category}
