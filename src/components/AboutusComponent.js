@@ -5,10 +5,6 @@ import teng from '../assets/image/Teng.png';
 import Sin_kid from '../assets/image/Sin_kid.png';
 import Metawarden from '../assets/image/Metawarden.png';
 
-const containerStyle = {
-    width: '100%',
-    height: '400px',
-  };
 
 class AboutusComponent extends Component {
     constructor() {
