@@ -26,7 +26,7 @@ class EditUserComponent extends Component {
 
     componentDidMount() {
         let login = JSON.parse(localStorage.getItem('login'));
-        if (login == null ||login.role != 'ADMIN' || !this.id)
+        if (login === null ||login.role !== 'ADMIN' || !this.id)
             window.location.href = "/";
         fetch('http://localhost:3001/admin/user/data?search=' + this.id)
             .then((response) => response.json())
@@ -61,7 +61,7 @@ class EditUserComponent extends Component {
         fetch('http://localhost:3001/admin/user/edit', requestOptions)
             .then(response => response)
             .then(data => {
-                if(data.status == 200) {
+                if(data.status === 200) {
                     alert('Finished editing user info');
                     window.location.href = "/admin/user";
                 } else {
