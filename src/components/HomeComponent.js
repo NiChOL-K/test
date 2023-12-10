@@ -93,7 +93,7 @@ class HomeComponent extends Component {
                                 <div id="music">
                                     {this.state.trend.map((music, index) => (
                                         <div className="trend-box" key={index}>
-                                            <img src={music.image alt="ads" />
+                                            <img src={music.image alt="ads1" />
                                             <div className="text">
                                                 <b>{music.song}</b>
                                                 <p>{music.artist}</p>
@@ -116,7 +116,7 @@ class HomeComponent extends Component {
                                     {this.state.song.map((song, index) => (
                                         <div className="recommColumn" key={index}>
                                             <div className="recomm_box">
-                                                <img src={song.image} />
+                                                <img src={song.image} alt="recSong" />
                                                 <b>{song.song}</b>
                                                 <p>{song.artist}</p>
                                             </div>
