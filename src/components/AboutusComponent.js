@@ -33,13 +33,13 @@ class AboutusComponent extends Component {
                         <br />
                         <div className="images">
                             <figure>
-                                <a href="https://www.facebook.com/Nink.CholK/"><img className="img-us" src={Sin_kid} /></a>
+                                <a href="https://www.facebook.com/Nink.CholK/" alt="Chol"><img className="img-us" src={Sin_kid} /></a>
                                 <figcaption><h4>
                                     <a href="https://www.facebook.com/Nink.CholK/" style={{ 'textDecoration': 'none' }}>
                                         Cholravee Kittimethee</a></h4></figcaption>
                             </figure>
                             <figure>
-                                <a href="https://www.facebook.com/Teng.assawakarn"><img className="img-us" src={Teng} /></a>
+                                <a href="https://www.facebook.com/Teng.assawakarn" alt="Teng"><img className="img-us" src={Teng} /></a>
                                 <figcaption><h4>
                                     <a href="https://www.facebook.com/Teng.assawakarn" style={{ 'textDecoration': 'none' }}>
                                         Thachaphon Assawakan</a></h4></figcaption>
@@ -49,13 +49,13 @@ class AboutusComponent extends Component {
                     <article className="about_us">
                         <div className="images">
                             <figure>
-                                <a href="https://www.facebook.com/Thank.Pantakorn/"><img className="img-us" src={Metawarden} /></a>
+                                <a href="https://www.facebook.com/Thank.Pantakorn/" alt="Met"><img className="img-us" src={Metawarden} /></a>
                                 <figcaption><h4>
                                     <a href="https://www.facebook.com/Thank.Pantakorn/" style={{ 'textDecoration': 'none' }}>
                                         Pantakorn Sathapanasakul</a></h4></figcaption>
                             </figure>
                             <figure>
-                                <a href="https://www.facebook.com/Saran.Jearawattanakul"><img className="img-us" src={Gengar} /></a>
+                                <a href="https://www.facebook.com/Saran.Jearawattanakul" alt="TuThank"><img className="img-us" src={Gengar} /></a>
                                 <figcaption><h4>
                                     <a href="https://www.facebook.com/Saran.Jearawattanakul" style={{ 'textDecoration': 'none' }}>
                                         Saran Jearawattanakul</a></h4></figcaption>
