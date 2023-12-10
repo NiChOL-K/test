@@ -25,7 +25,7 @@ class AddUserComponent extends Component {
 
     componentDidMount() {
         let login = JSON.parse(localStorage.getItem('login'));
-        if (login == null ||login.role != 'ADMIN')
+        if (login === null ||login.role !== 'ADMIN')
             window.location.href = "/";
     }
 
@@ -51,7 +51,7 @@ class AddUserComponent extends Component {
         fetch('http://localhost:3001/admin/user/add', requestOptions)
             .then(response => response)
             .then(data => {
-                if (data.status == 200) {
+                if (data.status === 200) {
                     alert('Finish add new user');
                     window.location.href = "/admin/user";
                 } else {
@@ -111,14 +111,14 @@ class AddUserComponent extends Component {
 
 
                         Plan :
-                        <input type="radio" name="plan" value="Free" checked={this.state.plan === 'Free' || this.state.plan ==''} onChange={this.handleChange}/> Free &nbsp;
+                        <input type="radio" name="plan" value="Free" checked={this.state.plan === 'Free' || this.state.plan ===''} onChange={this.handleChange}/> Free &nbsp;
                         <input type="radio" name="plan" value="Montly" checked={this.state.plan === 'Montly'} onChange={this.handleChange} /> Montly Plan &nbsp;
                         <input type="radio" name="plan" value="Year" checked={this.state.plan === 'Year'} onChange={this.handleChange} /> Year Plan &nbsp;
                         <br />
                         <br />
                         Role :
                         <input type="radio" name="role" value="ADMIN" checked={this.state.role === 'ADMIN'} onChange={this.handleChange} /> ADMIN &nbsp;
-                        <input type="radio" name="role" value="USER" checked={this.state.role === 'USER' || this.state.role == ''} onChange={this.handleChange}/> USER &nbsp;
+                        <input type="radio" name="role" value="USER" checked={this.state.role === 'USER' || this.state.role === ''} onChange={this.handleChange}/> USER &nbsp;
 
                         <br /><br />
                         <input type="submit" id="submit" name="submit" value="Add" />
