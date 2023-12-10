@@ -26,7 +26,7 @@ class DeleteUserComponent extends Component {
 
     componentDidMount() {
         let login = JSON.parse(localStorage.getItem('login'));
-        if (login == null ||login.role != 'ADMIN' || !this.id)
+        if (login === null ||login.role !== 'ADMIN' || !this.id)
             window.location.href = "/";
         fetch('http://localhost:3001/admin/user/data?search=' + this.id)
             .then((response) => response.json())
@@ -56,10 +56,10 @@ class DeleteUserComponent extends Component {
         fetch('http://localhost:3001/admin/user/delete', requestOptions)
             .then(response => response)
             .then(data => {
-                if(data.status == 200) {
+                if(data.status === 200) {
                     alert('Finish delete the information');
                     let login = JSON.parse(localStorage.getItem('login'));
-                    if(login.uid == this.id) {
+                    if(login.uid === this.id) {
                         localStorage.clear();
                     }
                     window.location.href = "/admin/user";
