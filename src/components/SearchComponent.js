@@ -44,10 +44,10 @@ class SearchComponent extends Component {
             console.log(this.state)
         });
         let param = '?';
-        if (this.state.searchuser != null && this.state.searchuser != '') {
+        if (this.state.searchuser !== null && this.state.searchuser != '') {
             param += 'searchuser=' + this.state.searchuser + '&';
         }
-        if (c.target.value != 'ALL')
+        if (c.target.value !== 'ALL')
             param += 'category=' + c.target.value;
         fetch('http://localhost:3001/search' + param)
             .then((response) => response.json())
@@ -61,10 +61,10 @@ class SearchComponent extends Component {
     searchUser(e) {
         e.preventDefault();
         let param = '?';
-        if (this.state.searchuser != null && this.state.searchuser != '') {
+        if (this.state.searchuser !== null && this.state.searchuser != '') {
             param += 'searchuser=' + this.state.searchuser + '&';
         }
-        if (this.state.cate != null && this.state.cate != '' && this.state.cate != 'ALL')
+        if (this.state.cate !== null && this.state.cate !== '' && this.state.cate !== 'ALL')
             param += 'category=' + this.state.cate;
         fetch('http://localhost:3001/search' + param)
             .then((response) => response.json())
@@ -87,20 +87,20 @@ class SearchComponent extends Component {
                         </form>
                     </div>
                     <div id="buttons">
-                        <button className={"button-value " + (this.state.cate == '' || this.state.cate == 'ALL' ? 'active' : '')} value={"ALL"} onClick={e => this.search(e, "value")}>ALL</button>
+                        <button className={"button-value " + (this.state.cate === '' || this.state.cate === 'ALL' ? 'active' : '')} value={"ALL"} onClick={e => this.search(e, "value")}>ALL</button>
 
                         {this.state.category.map((category, index) => (
-                            <button key={index} className={"button-value " + (this.state.cate == category.category ? 'active' : '')} value={category.category} onClick={e => this.search(e, "value")}>{category.category}</button>
+                            <button key={index} className={"button-value " + (this.state.cate === category.category ? 'active' : '')} value={category.category} onClick={e => this.search(e, "value")}>{category.category}</button>
                         ))}
                     </div>
                     <div id="music_gen">
                         {this.state.song.map((song, index) => (
                             <div key={index}>
-                                {(this.state.login != null && (this.state.login.role == 'ADMIN' || this.state.login.plan != 'Free')) ?
+                                {(this.state.login !== null && (this.state.login.role === 'ADMIN' || this.state.login.plan != 'Free')) ?
                                     <a href={"/result/play?id=" + song.song_id} className="a-card">
                                         <div className="card">
                                             <div className="image-container">
-                                                <img src={song.image} className="img-search" /></div>
+                                                <img src={song.image} className="img-search" alt="searchImg1" /></div>
                                             <div className="container">
                                                 <h5 className="music-name">
                                                     {song.song_name}
@@ -113,7 +113,7 @@ class SearchComponent extends Component {
                                     </a> :
                                     <div className="card">
                                         <div className="image-container">
-                                            <img src={song.image} className="img-search" /></div>
+                                            <img src={song.image} className="img-search" alt="searchImg2"/></div>
                                         <div className="container">
                                             <h5 className="music-name">
                                                 {song.song_name}
