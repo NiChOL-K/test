@@ -41,7 +41,7 @@ class HomeComponent extends Component {
                 return response.json();
             })
             .then((data) => {
-                this.state.trend = data;
+                //this.state.trend = data;
                 this.setState({ trend: data });
             });
 
