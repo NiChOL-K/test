@@ -10,11 +10,6 @@ const containerStyle = {
     height: '400px',
   };
 
-const center = {
-    lat: 13.794460205024784,
-    lng: 100.32470327191547
-  };
-
 class AboutusComponent extends Component {
     constructor() {
         super();
