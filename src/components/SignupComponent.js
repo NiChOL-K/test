@@ -45,7 +45,7 @@ class SignupComponent extends Component {
         fetch('http://localhost:3001/signup', requestOptions)
             .then(response => response)
             .then(data => {
-                if (data.status == 200) {
+                if (data.status === 200) {
                     alert('Successfully regist a new account');
                     window.location.href = "/login";
                 } else {
@@ -102,7 +102,7 @@ class SignupComponent extends Component {
 
 
                     Plan :
-                    <input type="radio" name="plan" value="Free" checked={this.state.plan === 'Free' || this.state.plan == ''} onChange={this.handleChange} /> Free &nbsp;
+                    <input type="radio" name="plan" value="Free" checked={this.state.plan === 'Free' || this.state.plan === ''} onChange={this.handleChange} /> Free &nbsp;
                     <input type="radio" name="plan" value="Montly" checked={this.state.plan === 'Montly'} onChange={this.handleChange} /> Montly Plan &nbsp;
                     <input type="radio" name="plan" value="Year" checked={this.state.plan === 'Year'} onChange={this.handleChange} /> Year Plan &nbsp;
                     <br />
