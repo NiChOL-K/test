@@ -16,7 +16,7 @@ class AddSongComponent extends Component {
 
     componentDidMount() {
         let login = JSON.parse(localStorage.getItem('login'));
-        if (login === null || login.role != 'ADMIN')
+        if (login === null || login.role !== 'ADMIN')
             window.location.href = "/";
     }
 
