@@ -39,7 +39,7 @@ class AboutusComponent extends Component {
                                         Cholravee Kittimethee</a></h4></figcaption>
                             </figure>
                             <figure>
-                                <a href="https://www.facebook.com/Teng.assawakarn" alt="Teng"><img className="img-us" src={Teng} /></a>
+                                <a href="https://www.facebook.com/Teng.assawakarn" alt="Teng"><img className="img-us" src={teng} /></a>
                                 <figcaption><h4>
                                     <a href="https://www.facebook.com/Teng.assawakarn" style={{ 'textDecoration': 'none' }}>
                                         Thachaphon Assawakan</a></h4></figcaption>
