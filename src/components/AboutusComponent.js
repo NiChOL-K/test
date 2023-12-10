@@ -64,20 +64,6 @@ class AboutusComponent extends Component {
                         </div>
                     </article>
                 </article>
-                <br></br>
-                <div className="location"><h2>Our Location</h2></div><br></br><br></br>
-                <LoadScript
-                    googleMapsApiKey="AIzaSyDs6tJBTgxgzavHr5w2GDHkqT_WAs2Jh2w"
-                >
-                <GoogleMap
-                    mapContainerStyle={containerStyle}
-                    center={center}
-                    zoom={18}
-                >
-                { /* Child components, such as markers, info windows, etc. */ }
-                <></>
-                </GoogleMap>
-                </LoadScript>
                 <br /><br /><br />
                 <footer>
                     <a href="/"><h1>LOOP</h1> </a>
