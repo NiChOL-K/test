@@ -17,7 +17,7 @@ class UserComponent extends Component {
 
     componentDidMount() {
         let login = JSON.parse(localStorage.getItem('login'));
-        if (login == null || login.role != 'ADMIN')
+        if (login === null || login.role !== 'ADMIN')
             window.location.href = "/";
 
         fetch('http://localhost:3001/admin/user')
