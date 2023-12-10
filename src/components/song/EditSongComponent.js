@@ -19,7 +19,7 @@ class EditSongComponent extends Component {
 
     componentDidMount() {
         let login = JSON.parse(localStorage.getItem('login'));
-        if (login == null || login.role != 'ADMIN' || !this.id)
+        if (login === null || login.role !== 'ADMIN' || !this.id)
             window.location.href = "/";
             
         fetch('http://localhost:3001/admin/song/data?search=' + this.id)
