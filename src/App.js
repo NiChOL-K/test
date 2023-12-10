@@ -60,7 +60,7 @@ function App() {
           {log}
           {user}
           {userdetail}
-          <a href="/search"><object type="image/svg+xml" data={search}></object></a>
+          <a href="/search"><object type="image/svg+xml" data={search} /></a>
           {log2}
         </nav>
       </header>
