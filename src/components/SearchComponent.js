@@ -44,7 +44,7 @@ class SearchComponent extends Component {
             console.log(this.state)
         });
         let param = '?';
-        if (this.state.searchuser !== null && this.state.searchuser != '') {
+        if (this.state.searchuser !== null && this.state.searchuser !== '') {
             param += 'searchuser=' + this.state.searchuser + '&';
         }
         if (c.target.value !== 'ALL')
@@ -61,7 +61,7 @@ class SearchComponent extends Component {
     searchUser(e) {
         e.preventDefault();
         let param = '?';
-        if (this.state.searchuser !== null && this.state.searchuser != '') {
+        if (this.state.searchuser !== null && this.state.searchuser !== '') {
             param += 'searchuser=' + this.state.searchuser + '&';
         }
         if (this.state.cate !== null && this.state.cate !== '' && this.state.cate !== 'ALL')
@@ -96,7 +96,7 @@ class SearchComponent extends Component {
                     <div id="music_gen">
                         {this.state.song.map((song, index) => (
                             <div key={index}>
-                                {(this.state.login !== null && (this.state.login.role === 'ADMIN' || this.state.login.plan != 'Free')) ?
+                                {(this.state.login !== null && (this.state.login.role === 'ADMIN' || this.state.login.plan !== 'Free')) ?
                                     <a href={"/result/play?id=" + song.song_id} className="a-card">
                                         <div className="card">
                                             <div className="image-container">
