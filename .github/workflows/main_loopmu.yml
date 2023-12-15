@@ -53,4 +53,4 @@ jobs:
           app-name: 'loopMu'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_986F3F1DC9BF4F499B654681CF83603A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E64769E3BF624F73BBE409AE2AC75003 }}
