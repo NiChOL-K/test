@@ -62,6 +62,7 @@ function App() {
           {userdetail}
           <a href="/search"><object type="image/svg+xml" data={search} /></a>
           {log2}
+          learn react
         </nav>
       </header>
 
